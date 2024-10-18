@@ -61,8 +61,13 @@ align-items: center;
     background-color: rgba(0, 0, 0, 0.521);
 }
 #group1 img {
-    padding: 70px;
     width: 300px;
+}
+#A {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40%;
 }
 /* Sobre Nós */
 .sobre {
@@ -139,25 +144,40 @@ align-items: center;
 }
 table {
     padding: 100px 200px;
+    font-size: 24px;
 }
 #resto {
     display: flex;
     justify-content: space-between;
-    width: 150px;
+    width: 500px;
     align-items: center;
 }
 #juncao {
     display: flex;
     align-items: center;
 }
+#logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#logo img {
+    max-width: 40px;
+    padding-left: 5px;
+    padding-right: 10px;
+    max-height: 25px; 
+}
 td {
-    padding: 5px;
+    padding: 8px;
+    border: 1px solid azure;
 }
 #im {
     position: absolute;
     z-index: -1;
+    width: 100%;
 }
 #im img {
-    width: 1349px;
-
+    width: 100%;
+    height: 1250px;
 }
+
