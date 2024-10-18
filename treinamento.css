@@ -1,0 +1,163 @@
+@import url('https://fonts.cdnfonts.com/css/nozstudio');
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Navbar */
+nav {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    position: fixed;
+    background-color: white;
+    width: 100%;
+    z-index: 10;
+    font-family: 'NOZSTUDIO', sans-serif;
+    border-bottom: 1px solid rgba(36, 35, 61, 0.568);
+}
+nav a {
+    text-decoration: none;
+    color: rgb(36, 35, 61);
+    font-size: 18px;
+}
+nav a:hover {
+    border-bottom: 2px solid rgb(36, 35, 61);
+}
+nav img {
+    height: 40px;
+    margin-left: 15px;
+}
+main {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(36, 35, 61);
+}
+/* Carrossel */
+.img {
+position: relative;
+z-index: -1;
+display: flex;
+align-items: center;
+}
+#carro {
+    width: 100%;
+    margin-top: 60px;
+}
+#group1 {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    align-items: center;
+}
+#group1 h1 {
+    display: flex;
+    align-items: center;
+    color: aliceblue;
+    width: 60vw;
+    height: 100px;
+    padding: 30px;
+    font-size: 32px;
+    background-color: rgba(0, 0, 0, 0.521);
+}
+#group1 img {
+    padding: 70px;
+    width: 300px;
+}
+/* Sobre Nós */
+.sobre {
+    padding: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+#img_texto img {
+    width: 400px;
+    height: 250px;
+    border: 5px solid rgba(36, 35, 61);
+}
+#img_texto {
+    rotate: 15deg;
+    background-color: rgba(36, 35, 61);
+    color: azure;
+    text-align: center;
+    padding-bottom: 4px;
+    z-index: 0;
+}
+#texto {
+    width: 600px;
+}
+#texto p {
+    font-size: 18px;
+}
+.pilotos {
+    background-color: rgb(36, 35, 61);
+    color: azure;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+#img_texto2 img {
+    height: 350px;
+    display: flex;
+    align-items: center;
+}
+#texto2 {
+    width: 500px;
+    padding: 40px;
+}
+#texto2 p {
+    font-size: 18px;
+}
+#texto2 a {
+    color: rgb(16, 169, 196);
+}
+.drivers2024 {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 30px;
+    font-family: 'NOZSTUDIO', sans-serif;
+}
+.classificao {
+    display: flex;
+    justify-content: space-between;
+    color: azure;
+    z-index: 1;
+}
+#img3 {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+#img3 h2 {
+    font-family: 'NOZSTUDIO' , sans-serif;
+    padding-top: 20px;
+    border-bottom: 1px solid azure;
+    margin-bottom: 15px;
+}
+table {
+    padding: 100px 200px;
+}
+#resto {
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+    align-items: center;
+}
+#juncao {
+    display: flex;
+    align-items: center;
+}
+td {
+    padding: 5px;
+}
+#im {
+    position: absolute;
+    z-index: -1;
+}
+#im img {
+    width: 1349px;
+
+}
