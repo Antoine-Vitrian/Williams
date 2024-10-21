@@ -52,7 +52,7 @@
                 <br>
                 <p>&emsp13;&emsp13;&emsp13;Os pilotos de nossa equipe são essenciais para transformar a tecnologia e estratégia em resultados. Com habilidades excepcionais, eles enfrentam desafios intensos em cada corrida, contribuindo para o desenvolvimento do carro e da equipe. Sua precisão, coragem e talento são fundamentais para o sucesso no esporte, onde cada segundo conta.</p>
                 <br>
-                <p>&emsp13;&emsp13;&emsp13;Para saber os números de todos os nossos pilotos acesse <a href="https://www.f1-fansite.com/pt/f1-teams/williams/">https://www.f1-fansite.com/pt/f1-teams/williams/</a></p>
+                <p>&emsp13;&emsp13;&emsp13;Para saber os números de todos os nossos pilotos acesse: <a href="https://www.f1-fansite.com/pt/f1-teams/williams/">https://www.f1-fansite.com/pt/f1-teams/williams/</a></p>
             </div>
         </div>
         <hr>
@@ -60,13 +60,10 @@
             <h1><i>Season 2024</i></h1>
         </div>
         <div class="classificao">
-            <div id="im">
-                <img src="img/img-classificação.png" alt="">
-            </div>
             <div id="tabela">
                 <div class="botoes">
-                    <button>Pilotos</button>
-                    <button>Construtores</button>
+                    <button onclick="mostrarPilotos()">Pilotos</button>
+                    <button onclick="mostrarConstrutores()">Construtores</button>
                 </div>
                 <div id="pilotos">
                     <table>
@@ -310,20 +307,188 @@
                           </tr>
                     </table>
                 </div>
-                <div id="construtores"></div>
+                <div id="construtores">
+                    <table>
+                        <tr>
+                            <td id="position"> 1° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="" alt="">
+                                    </div>
+                                    <h4>Mclaren</h4>
+                                </div>
+                                <h4>544</h4>
+                            </td>
+                          </tr>
+                        <tr>
+                            <td id="position"> 2° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="img/redbull-logo.png" alt="">
+                                    </div>
+                                    <h4>Red Bull</h4>
+                                </div>
+                                <h4>504</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 3° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="img/logo-ferrari.png" alt="">
+                                    </div>
+                                    <h4>Ferrari</h4>
+                                </div>
+                                <h4>496</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 4° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="" alt="">
+                                    </div>
+                                    <h4>Mercedes</h4>
+                                </div>
+                                <h4>344</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 5° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="" alt="">
+                                    </div>
+                                    <h4>Aston Martin</h4>
+                                </div>
+                                <h4>86</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 6° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="" alt="">
+                                    </div>
+                                    <h4>Haas</h4>
+                                </div>
+                                <h4>38</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 7° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="" alt="">
+                                    </div>
+                                    <h4>RB Visa Cash</h4>
+                                </div>
+                                <h4>36</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 8° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="img/Logo_azulclaro_williams.png" alt="">
+                                    </div>
+                                    <h4>Williams</h4>
+                                </div>
+                                <h4>17</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 9° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="" alt="">
+                                    </div>
+                                    <h4>Alpine</h4>
+                                </div>
+                                <h4>13</h4>
+                            </td>
+                          </tr>
+                          <tr>
+                            <td id="position"> 10° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="img/sauber.png" alt="">
+                                    </div>
+                                    <h4>Sauber</h4>
+                                </div>
+                                <h4>0</h4>
+                            </td>
+                          </tr>
+                    </table>
+                </div>
             </div>
-            <div id="img3">
-                <h2>Drivers 2024</h2>
-                <img src="img/Captura de tela 2024-10-17 085247.png" alt="Alex Albon">
-                <img src="img/Captura de tela 2024-10-17 085450.png" alt="Logan Sargeant">
-                <img src="" alt="Franco Collapinto">
+            <div id="calendario">
+                <h2>Calendário 2024</h2>
+
+            </div>
+        </div>
+        <div class="drivers2024">
+            <h1><i>Nossa Equipe</i></h1>
+        </div>
+        <div class="equipe">
+            <img src="img/Captura de tela 2024-10-17 085247.png" alt="">
+            <div id="inf">
+                <h2>Corridas</h2>
+                <h3>19</h3>
+                -------------
+                <h2>Vitórias</h2>
+                <h3>0</h3>
+                -------------
+                <h2>Pódios</h2>
+                <h3>0</h3>
+                -------------
+                <h2>Pontos</h2>
+                <h3>12</h3>
+            </div>
+            <img src="img/Captura de tela 2024-10-17 085450.png" alt="">
+            <div id="inf">
+                <h2>Corridas</h2>
+                <h3>15</h3>
+                -------------
+                <h2>Vitórias</h2>
+                <h3>0</h3>
+                -------------
+                <h2>Pódios</h2>
+                <h3>0</h3>
+                -------------
+                <h2>Pontos</h2>
+                <h3>0</h3>
+            </div>
+            <img src="img/Captura de tela 2024-10-17 085247.png" alt="">
+            <div id="inf">
+                <h2>Corridas</h2>
+                <h3>4</h3>
+                -------------
+                <h2>Vitórias</h2>
+                <h3>0</h3>
+                -------------
+                <h2>Pódios</h2>
+                <h3>0</h3>
+                -------------
+                <h2>Pontos</h2>
+                <h3>5</h3>
             </div>
         </div>
 
     </main>
-    <footer>
+    <!-- <footer>
 
-    </footer>
+    </footer> -->
     <script src="treinamento.js"></script>    
 </body>
 </html>
