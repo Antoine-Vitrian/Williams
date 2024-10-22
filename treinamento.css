@@ -130,8 +130,9 @@ align-items: center;
     justify-content: space-between;
     color: azure;
     z-index: 1;
-    background: rgb(2,0,36);
-    background: linear-gradient(45deg, rgba(2,0,36,1) 20%, rgba(5,5,70,1) 50%, rgba(9,9,121,1) 85%, rgba(3,57,161,1) 100%);
+    /* background: rgb(2,0,36);
+    background: linear-gradient(45deg, rgb(0, 0, 0) 20%, rgb(1, 1, 51) 50%, rgb(4, 4, 61) 85%, rgb(3, 39, 107) 100%); */
+    background-image: url('img/img-classificação.png');
 }
 /* drivers 2024 */
 #img3 {
@@ -213,3 +214,4 @@ footer {
     font-family: 'NOZSTUDIO' , sans-serif;
     font-size: 12px;
 }
+
