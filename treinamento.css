@@ -229,8 +229,6 @@ footer {
     justify-content: space-around;
     background-color: rgb(22, 22, 37);
 }
-.senna img {
-}
 #homenagem {
     padding: 30px;
     color: azure;
@@ -238,4 +236,48 @@ footer {
 #homenagem p {
     font-size: 18px;
 }
-
+.cadastro {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#cadastro_img {
+    background-color: rgb(22, 22, 37);
+    width: 450px;
+    height: 450px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 25px;
+    z-index: 2;
+}
+#cadastro_img img {
+    width: 250px;
+}
+#cadastro {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    width: 450px;
+    height: 450px;
+    
+}
+.group5 {
+    position: relative;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+#carro1 {
+    width: 100%;
+    height: 600px;
+}
+#sombra {
+    width: 100%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.479);
+    position: absolute;
+}
+#absolute {
+    position: absolute;
+}
