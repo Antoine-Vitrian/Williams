@@ -127,7 +127,7 @@ align-items: center;
 }
 .classificao {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     color: azure;
     z-index: 1;
     position: relative;
@@ -255,8 +255,8 @@ footer {
     display: flex;
     align-items: center;
     justify-content: center;
-    border-radius: 25px;
-    z-index: 2;
+    border-radius: 35px 0px 0px 35px;
+    z-index: 1;
 }
 #cadastro_img img {
     width: 250px;
@@ -265,9 +265,33 @@ footer {
     display: flex;
     flex-flow: column;
     align-items: center;
+    justify-content: center;
     width: 450px;
     height: 450px;
-    
+    gap: 20px;
+    z-index: 1;
+    border-radius: 0px 35px 35px 0px;
+    background-color: rgb(255, 255, 255);
+}
+#cadastro h2 {
+    color: rgb(22, 22, 37);
+    font-size: 22px;
+    text-align: center;
+    width: 80%;
+}
+#cadastro button {
+    font-size: 22px;
+    padding: 3px 20px;
+    border-radius: 5px;
+    background-color: rgb(74, 74, 126);
+    color: azure;
+}
+input {
+    padding: 5px;
+    font-size: 18px;
+    border-radius: 5px;
+    border: 1px solid rgb(103, 111, 114);
+    background-color: rgb(216, 216, 216);
 }
 .group5 {
     position: relative;
@@ -286,6 +310,7 @@ footer {
 }
 #absolute {
     position: absolute;
+    display: flex;
 }
 .botoes {
     width: 1000px;
