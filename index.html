@@ -11,10 +11,10 @@
         <img src="img/williams-f1.png" alt="" href="">
         <a href="#carro">Home</a>
         <a href="#sobre">Sobre</a>
-        <a href="">Pilotos</a>
-        <a href="">2024</a>
-        <a href="">Senna</a>
-        <a href="">Cadastre-se</a>
+        <a href="#piloto1">Pilotos</a>
+        <a href="#classificao9">Classificação</a>
+        <a href="#senna5">Senna</a>
+        <a href="#cads">Cadastre-se</a>
 
     </nav>
     <main>
@@ -44,7 +44,7 @@
         <hr>
         <div class="pilotos">
             <div id="img_texto2">
-                <img src="img/Captura de tela 2024-10-15 075331.png" alt="Carros da Williams na pista">
+                <img src="img/Captura de tela 2024-10-15 075331.png" alt="Carros da Williams na pista" id="piloto1">
             </div>
             <div id="texto2">
                 <h1><i>Pilotos</i></h1>
@@ -56,14 +56,17 @@
             </div>
         </div>
         <hr>
-        <div class="drivers2024">
+        <div class="drivers2024" id="classificao9">
             <h1><i>Season 2024</i></h1>
         </div>
         <div class="classificao">
+            <div id="im">
+                <img src="img/img-classificação.png" alt="">
+            </div>
             <div id="tabela">
                 <div class="botoes">
-                    <button onclick="mostrarPilotos()">Pilotos</button>
-                    <button onclick="mostrarConstrutores()">Construtores</button>
+                    <button onclick="mostrarPilotos()" id="pit">Pilotos</button>
+                    <button onclick="mostrarConstrutores()" id="con">Construtores</button>
                 </div>
                 <div id="pilotos">
                     <table>
@@ -331,6 +334,18 @@
                                 <h4>0</h4>
                             </td>
                           </tr>
+                          <tr>
+                            <td id="position"> 23° </td>
+                            <td id="resto">
+                                <div id="juncao">
+                                    <div id="logo">
+                                        <img src="img/rb-visacash.png" alt="">
+                                    </div>
+                                    <h4>Liam Lawson</h4>
+                                </div>
+                                <h4>0</h4>
+                            </td>
+                          </tr>
                     </table>
                 </div>
                 <div id="construtores">
@@ -510,7 +525,7 @@
                 <h3>5</h3>
             </div>
         </div>
-        <div class="tit_senna">
+        <div class="tit_senna" id="senna5">
             <h1><i>Senna Eterno</i></h1>
         </div>
         <div class="senna">
